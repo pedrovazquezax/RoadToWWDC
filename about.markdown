@@ -3,16 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
+This Wiki is mean to be a guide for all the people who wants to learn how to make the aplication for the WWDC
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This initiative is made by the colaborators of the [iOS Development Lab Facultad Ingenieria](http://ioslab.ingenieria.unam.mx)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Colaborators:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- [Pedro Antonio Vazquez Rodriguez](https://github.com/pedrovazquezax)
+- [Andres Lopez Esquivel](https://github.com/AndresLopezEsquivel)
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+
+
