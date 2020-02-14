@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /RoadToWWDC/about/
+permalink: /about/
 ---
 This Wiki is mean to be a guide for all the people who wants to learn how to make the aplication for the WWDC
 
