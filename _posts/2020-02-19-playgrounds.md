@@ -13,13 +13,13 @@ If you´re starting to learn programing it's time to know the most important cod
 
 First, open Playgrounds on your iPad, in the bottom of the screen you'll see a section named "More Playgrounds", look for "Blank" playground and select it.
 
-![image2](https://imgur.com/BE55gfO)
+![Image1](https://i.imgur.com/BE55gfO.png)
 
 When you open a new playground you'll see a blank page with a button "Tap to enter code here", if you tap the button you'd be able to star writing, but before we are going to review the most important playground tools.
 
 On the upper left corner you'll a page icon, if you want to create a new file on your playground that's the place. Where you have the "+" symbol you'll find many options to help you with common programming functionalities. And in the down right corner running code options are placing, it means if you want to run your code you have to press the "Run My Code"  button.
 
-![image3](/assets/Image3.jpg)
+![Image3](https://i.imgur.com/er9IBb4.jpg)
 
 Now that we've seen the basics we can start our programming way. To start you should write the next code:
  ```
@@ -30,11 +30,11 @@ print("Hello world")
 
 Once you've written the code you could tap run something happened, you can't see our message. 
 
-![image5](/assets/Image5.png)
+![Image5](https://i.imgur.com/XO92PRD.png)
 
-This is because, when we want to observe a message it's neccesary to select de "abc" square on the right side of the "print()" instruction. If you've selected the square now you got a window with the "Hellow world" text.
+This is because, when we want to observe a message it's neccesary to select de "abc" square on the right side of the "print()" instruction. If you've selected the square now you got a window with the "Hello world" text.
 
-![image6](/assets/Image6.png)
+![Image6](https://i.imgur.com/5JOxoZT.png)
 
 Congratulations! Now you're starting your Swift Programming way.
 
@@ -58,7 +58,7 @@ PlaygroundPage.current.liveView = mainView
 ```
 The first line of code configure our main view, we need to specify  the view position, and the size of the view. In the second line we put the background view on blue. And finally we display the view on the screen.
 
-![image7](/assets/Image7.png)
+![Image7](https://i.imgur.com/WqRLKsw.png)
 
 Finally, if we want to display another view on the main view we write the next:
 
@@ -69,7 +69,7 @@ mainView.addSubiew(innerView)
  ```
 Here we create another view in the same way as the first one, but at the end line we add our new view on the main view, when we run our code it's more clear the effect.
 
-![image8](/assets/Image8.png)
+![Image8](https://i.imgur.com/ptjRn90.png)
 
 Now, it's your turn to experiment with Playgrounds.
 
