@@ -7,7 +7,7 @@ author: Yocoyani Ehecatzin Pérez Ayala
 ---
 
 ## What's Playgrounds
-Payground is an iPad App where you can learn, experiment and create Swift coding. You have multiple tools and utilities for coding, such as "Hello, Byte", that is a game to learn basic concepts of programming for childs and new programmers. To start the tutorial you should download Playgrounds the App.
+Payground is an iPad App where you can learn, experiment and create Swift coding. You have multiple tools and utilities for coding, such as "Hello, Byte", that is a game to learn basic concepts of programming for children and new programmers. To start the tutorial you should download Playgrounds the App.
 
 ## Creating your first Playground
 If you´re starting to learn programing it's time to know the most important code lines in your life "Hello world". So, let's begin! 
@@ -18,7 +18,7 @@ First, open Playgrounds on your iPad, in the bottom of the screen you'll see a s
 
 When you open a new playground you'll see a blank page with a button "Tap to enter code here", if you tap the button you'd be able to star writing, but before we are going to review the most important playground tools.
 
-On the upper left corner you'll a page icon, if you want to create a new file on your playground that's the place. Where you have the "+" symbol you'll find many options to help you with common programming functionalities. And in the down right corner running code options are placing, it means if you want to run your code you have to press the "Run My Code"  button.
+*  ********On the upper left corner you'll find the page icon, if you want to create a new file on your playground that's the place. Where you have the "+" symbol you'll find many options to help you with common programming functionalities. And in the bottom right corner running code options are placed, it means that if you want to run your code you have to press the "Run My Code"  button. 
 
 ![Image3](https://i.imgur.com/er9IBb4.jpg)
 
@@ -29,7 +29,7 @@ print("Hello world")
 
 * Before run your playground, we should know that "print(*something to print*)" it's the easiest way to display information from our code.
 
-Once you've written the code you could tap run something happened, you can't see our message. 
+ ********Once you've written the code you could tap run something happened, you can't see our message. 
 
 ![Image5](https://i.imgur.com/XO92PRD.png)
 
@@ -40,7 +40,7 @@ This is because, when we want to observe a message it's neccesary to select de "
 Congratulations! Now you're starting your Swift Programming way.
 
 ## A golden ending
-To finish this introduction we're going to display a view on Playgrounds. Create a new blank playground and tap to star code writting. Write this lines:
+To finish this introduction we're going to display a view on Playgrounds. Create a new blank playground and tap to start code writting. Write this lines:
 
 ```
 import UIKit
@@ -49,7 +49,7 @@ import PlaygroundSupport
 
 This lines tell Playgrounds to  add UIKit and PlaygroundSupport libraries.
 * UIKit is going to help us to work with all the graphic components often used on an iOS App or Mac program.
-* PlaygroundSupport it's a library that allow us to display all our components on iPad screen.
+* PlaygroundSupport it's a library that allows us to display all our components on iPad screen.
 Continue writting next lines:
 
 ```
