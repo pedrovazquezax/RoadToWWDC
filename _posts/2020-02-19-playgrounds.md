@@ -22,8 +22,9 @@ On the upper left corner you'll a page icon, if you want to create a new file on
 ![image3](/assets/Image3.jpg)
 
 Now that we've seen the basics we can start our programming way. To start you should write the next code:
-
-    print("Hello world")
+ ```
+print("Hello world")
+ ```
 
 * Before run your playground, we should know that "print(*something to print*)" it's the easiest way to display information from our code.
 
@@ -40,29 +41,31 @@ Congratulations! Now you're starting your Swift Programming way.
 ## A golden ending
 To finish this introduction we're going to display a view on Playgrounds. Create a new blank playground and tap to star code writting. Write this lines:
 
-  ```
-    import UIKit
-    import PlaygroundSupport
-  ```
+```
+import UIKit
+import PlaygroundSupport
+```
 
 This lines tell Playgrounds to  add UIKit and PlaygroundSupport libraries.
 * UIKit is going to help us to work with all the graphic components often used on an iOS App or Mac program.
 * PlaygroundSupport it's a library that allow us to display all our components on iPad screen.
 Continue writting next lines:
- ```
-    let mainView = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0. height: 100.0))
-    mainView.backgroundColor = .blue
-    PlaygroundPage.current.liveView = mainView
- ```
+
+```
+let mainView = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0. height: 100.0))
+mainView.backgroundColor = .blue
+PlaygroundPage.current.liveView = mainView
+```
 The first line of code configure our main view, we need to specify  the view position, and the size of the view. In the second line we put the background view on blue. And finally we display the view on the screen.
 
 ![image7](/assets/Image7.png)
 
 Finally, if we want to display another view on the main view we write the next:
+
  ```
-    let innerView = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0. height: 100.0))
-    innerView.backgroundColor = .green
-    mainView.addSubiew(innerView)
+let innerView = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0. height: 100.0))
+innerView.backgroundColor = .green
+mainView.addSubiew(innerView)
  ```
 Here we create another view in the same way as the first one, but at the end line we add our new view on the main view, when we run our code it's more clear the effect.
 
