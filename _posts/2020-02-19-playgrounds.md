@@ -3,6 +3,9 @@ layout: post
 title:  "Playgrounds Introduction"
 date:   2020-02-19 16:46:37 -0600
 categories: playgrounds
+author:
+  name: John Smith
+  email: "john.smith@foobar.com"
 ---
 
 ## What's Playgrounds
