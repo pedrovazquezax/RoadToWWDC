@@ -13,7 +13,7 @@ If you´re starting to learn programing it's time to know the most important cod
 
 First, open Playgrounds on your iPad, in the bottom of the screen you'll see a section named "More Playgrounds", look for "Blank" playground and select it.
 
-![image2](/assets/Image2.jpg)
+![image2](https://imgur.com/BE55gfO)
 
 When you open a new playground you'll see a blank page with a button "Tap to enter code here", if you tap the button you'd be able to star writing, but before we are going to review the most important playground tools.
 
