@@ -40,9 +40,10 @@ Congratulations! Now you're starting your Swift Programming way.
 
 ## A golden ending
 To finish this introduction we're going to display a view on Playgrounds. Create a new blank playground and tap to star code writting. Write this lines:
-
+```
     import UIKit
     import PlaygroundSupport
+```
 This lines tell Playgrounds to  add UIKit and PlaygroundSupport libraries.
 * UIKit is going to help us to work with all the graphic components often used on an iOS App or Mac program.
 * PlaygroundSupport it's a library that allow us to display all our components on iPad screen.
