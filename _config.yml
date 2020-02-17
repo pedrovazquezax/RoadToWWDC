@@ -21,7 +21,7 @@
 title: Road to WWDC
 email: pedrovazquezax@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  With this site you will learn everything you'll need to make an aplication for the WWDC and here will be challenges that will help you improve and be a better developer.
+  With this site you will learn everything you'll need to make an aplication for the WWDC and here will be some challenges that will help you improve and be a better developer.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pedrovazquezax1
