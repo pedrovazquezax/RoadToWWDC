@@ -29,7 +29,7 @@ print("Hello world")
 
 * Before running your playground, we should know that "print(*something to print*)" it's the easiest way to display information from our code.
 
-Once you've written the code you could tap run, something happened you can't see our message. 
+Once you've written the code you could tap run, but you can't see the message yet.
 
 ![Image5](https://i.imgur.com/XO92PRD.png)
 
