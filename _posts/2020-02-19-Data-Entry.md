@@ -5,7 +5,7 @@ date:   2020-02-19 20:07:37 -0600
 categories: playgrounds
 author: Yocoyani Ehecatzin Pérez Ayala
 ---
-Usually when you create an App or a program, your need to interact with the user, to do it you have to create entries to receive user information. In this post we’re going to create a basic Entry for a view in Playgrounds.
+Usually when you create an App or a program, your need to interact with the user. To do it you have to create entries to receive user information. In this post we’re going to create a basic Entry for a view in Playgrounds.
 
 First, we’re going to display a common view. Let’s go to code!!
 
@@ -18,14 +18,15 @@ First, we’re going to display a common view. Let’s go to code!!
 	    var label: UILabel!
     
     }
+
 Now we’re creating a **class** named  *JFTextfield* that is a child class of UIViewController and UITextFieldDelegate. Maybe this word a kind of strange if you’re a beginner programmer. So, we need to define some concepts before continue.
 
-* **Class** - When we talk about classes we’re refering to a programming structure where we could storage information from different kind of data and add functionalities. It’s a little bit confuse but in simple word we could define a class as an object template that shows the basic properties of the object.
-*  **Inheritance**  -One of the basic features of classes is inheritance, when we have a class, very often it takes properties from a **base class**, because of this the new class is known as a **child class** and it means that inherit qualities from his father. Obviously , a base class hasn’t inheritance from another class.
+* **Class** - When we talk about classes we’re refering to a programming structure where we could storage information from different kind of data and add functionalities. It’s a little bit confusing but in simple words we could define a class as an object template that shows the basic properties of the object.
+*  **Inheritance** - One of the basic features of classes is inheritance. When we have a class, its usual that it takes properties from a **base class**. Because of this, the new class is known as a **child class** and it means that inherit qualities from his father. Obviously, a base class hasn’t inheritance from another class.
 
 So, we can explain that *JFTextField* is going to be a view when we could find a text field (UITextField) and a label (UILabel).
 
-Now we should write next code into the class:
+Now we should write the next code into the class:
 
     override func loadView(){
 	    let view = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0, height: 100.0))
@@ -43,7 +44,8 @@ Now we should write next code into the class:
 	 }
 	    
 We’ve just created a view to display  a text field and a label.
-Now, we need to recieve the the entry from the user on the text field and write it on the label.
+
+Now, we need to receive the entry from the user on the text field and write it on the label.
 
 Add the following code after our last line on lastView():
 
@@ -60,7 +62,7 @@ Finally, we have to display our view:
 
     PlaygroundPage.current.liveView = JFTextFieldController()
 
-You’d see this result:
+You’ll see this result:
 
 ![Image](https://i.imgur.com/ijsOqh6.jpg)
 

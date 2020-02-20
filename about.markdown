@@ -12,7 +12,7 @@ Colaborators:
 - [Pedro Antonio Vázquez Rodríguez](https://github.com/pedrovazquezax)
 - [Andres Lopez Esquivel](https://github.com/AndresLopezEsquivel)
 - [Yocoyani Ehecatzin Pérez Ayala](https://github.com/Yocoyani1)
-- [Edgar Guillermo Vilchis Testas](https://github.com/Yocoyani1)
+- [Edgar Guillermo Vilchis Testas](https://github.com/Evil96)
 
 
 
