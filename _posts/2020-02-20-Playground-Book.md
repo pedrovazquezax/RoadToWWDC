@@ -29,7 +29,7 @@ Here you'll find:
 
 *  The **BUNDLE_IDENTIFIER_PREFIX** is used to  set your team, like in a normal app.
     
-          example: com.example
+> example: com.example
 
 * The **PLAYGROUND_BOOK_FILE_NAME** here you´ll set the Playground Book name.
 
