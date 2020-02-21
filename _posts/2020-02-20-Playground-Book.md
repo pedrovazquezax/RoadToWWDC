@@ -9,7 +9,6 @@ author: Pedro Antonio Vázquez Rodríguez
 
 A playground allows us to learn new concepts through programming. The advantages of learning in a playground is that we can experience, play and create while we learn.
 
-
 ## What do we need to build a Playground Book?
 1. You´ll need a [Free apple Developer Acount](https://developer.apple.com).
 

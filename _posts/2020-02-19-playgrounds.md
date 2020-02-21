@@ -23,7 +23,7 @@ On the upper left corner you'll find the page icon, if you want to create a new 
 ![Image3](https://i.imgur.com/er9IBb4.jpg)
 
 Now that we've seen the basics we can start our programming way. To start you should write the next code:
- ```
+ ``` swift
 print("Hello world")
  ```
 
@@ -42,7 +42,7 @@ Congratulations! Now you're starting your Swift Programming way.
 ## A golden ending
 To finish this introduction we're going to display a view on Playgrounds. Create a new blank playground and tap to start code writting. Write this lines:
 
-```
+```swift
 import UIKit
 import PlaygroundSupport
 ```
@@ -52,7 +52,7 @@ This lines tell Playgrounds to  add UIKit and PlaygroundSupport libraries.
 * PlaygroundSupport it's a library that allows us to display all our components on iPad screen.
 Continue writting next lines:
 
-```
+```swift
 let mainView = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0. height: 100.0))
 mainView.backgroundColor = .blue
 PlaygroundPage.current.liveView = mainView
@@ -63,7 +63,7 @@ The first line of code configures our main view. We need to specify  the view po
 
 Finally, if we want to display another view on the main view we write the next:
 
- ```
+ ```swift
 let innerView = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0. height: 100.0))
 innerView.backgroundColor = .green
 mainView.addSubiew(innerView)

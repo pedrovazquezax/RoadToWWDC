@@ -8,16 +8,19 @@ author: Yocoyani Ehecatzin Pérez Ayala
 Usually when you create an App or a program, your need to interact with the user. To do it you have to create entries to receive user information. In this post we’re going to create a basic Entry for a view in Playgrounds.
 
 First, we’re going to display a common view. Let’s go to code!!
-
-    import UIKit
-    import PlaygroundSupport
+``` swift
+import UIKit
+import PlaygroundSupport
     
-    class JFTextFeld: UIViewController, UITextFieldDelegate{
+class JFTextFeld: UIViewController, UITextFieldDelegate{
 	    
-	    var textField: UITextField!
-	    var label: UILabel!
+	var textField: UITextField!
+	var label: UILabel!
     
-    }
+}
+
+```
+    
 
 Now we’re creating a **class** named  *JFTextfield* that is a child class of UIViewController and UITextFieldDelegate. Maybe this word a kind of strange if you’re a beginner programmer. So, we need to define some concepts before continue.
 
@@ -28,20 +31,24 @@ So, we can explain that *JFTextField* is going to be a view when we could find a
 
 Now we should write the next code into the class:
 
-    override func loadView(){
-	    let view = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0, height: 100.0))
-	    view.backgroundColor = .cyan
+``` swift
+override func loadView(){
+	let view = UIView(frame: CGRect(x: 50.0, y: 50.0, width: 100.0, height: 100.0))
+	view.backgroundColor = .cyan
 	    
-	    textField.textColor = .black
-	    textField.backgroundColor = .white
-	    view.addSubview(textField)
+	textField.textColor = .black
+	textField.backgroundColor = .white
+	view.addSubview(textField)
 	    
-	    label = UILabel(frame: CGRect(x: 5, y: 25, width: 100, height: 15))
-	    label.backgroundColor = .brown
-	    label.textColor = .white
-	    view.addSubview(label)
-	    self.view = view
-	 }
+	label = UILabel(frame: CGRect(x: 5, y: 25, width: 100, height: 15))
+	label.backgroundColor = .brown
+	label.textColor = .white
+	view.addSubview(label)
+	self.view = view
+}
+
+```
+   
 	    
 We’ve just created a view to display  a text field and a label.
 
@@ -53,14 +60,19 @@ Add the following code after our last line on lastView():
 This line indicates that the text field is waiting to be edit, and when someone changed it’s content you could call the updateText function.
 
 It’s time to write the updateText() function:
-
-    @objc func updateText(){
+``` swift
+@objc func updateText(){
 		    self.label.text = textField.text
 	    }
+
+```
+    
 	 
 Finally, we have to display our view:
+``` swift
+PlaygroundPage.current.liveView = JFTextFieldController()
 
-    PlaygroundPage.current.liveView = JFTextFieldController()
+``` 
 
 You’ll see this result:
 
